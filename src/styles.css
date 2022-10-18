@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.outer-container {
+  width: 390px;
+  height: 844px;
+  background-color: #1d2025;
+  margin: 50px auto;
+  border-radius: 47px;
+}
+h1 {
+  color: #e6e6e6;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: start;
+  margin-left: 12%;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #aab3bd;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+  margin-left: 10px;
+}
+p {
+  margin: 0;
+}
+.finish-container {
+  display: flex;
+  justify-content: end;
+}
+.finish-btn {
+  width: 64px;
+  height: 28px;
+  border-radius: 6px;
+  background: #44c4a1;
+  font-weight: 600;
+  color: white;
+  margin-top: 16px;
+  margin-right: 22px;
+}
+.exercise-box {
+  width: 80%;
+  height: auto;
+  padding-bottom: 12px;
+  background-color: #102a43;
+  border-radius: 18px;
+  margin: 14px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-top {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+}
+.exercise-btns {
+  width: 25%;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  gap: 10px;
+  margin-right: 14px;
+  margin-top: 4px;
+}
+.exercise-btn {
+  background: #2e445b;
+  width: 32px;
+  height: 23px;
+  border-radius: 8px;
+}
+.column-titles {
+  display: flex;
+  height: 18px;
+}
+.row {
+  margin-top: 3px;
+  height: 28px;
+  width: 100%;
+  display: flex;
+}
+.weight-box {
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weight-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #e6e6e6;
+  margin-top: 2px;
+}
+.sets-container {
+  width: 73%;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+.set-box {
+  width: 32px;
+  height: 23px;
+  background: #2e445b;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reps-text {
+  color: rgba(170, 179, 189, 0.822);
+  margin-top: 2px;
+  font-weight: 600;
+  font-size: 16px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 12px;
+  margin-left: 22px;
+  color: rgba(170, 179, 189, 0.74);
+}
+.plus-icon {
+  width: 32px;
+  filter: brightness(140%);
+}
+.check-icon {
+  width: 18px;
+}
+.progress-icon {
+  width: 16px;
+  margin-top: 2px;
+}
+.more-icon {
+  margin-top: 1px;
+  width: 22px;
+}
